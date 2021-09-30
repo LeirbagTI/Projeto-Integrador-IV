@@ -1,0 +1,65 @@
+/* Página do chat */
+  #mainCHAT{
+    display: flex;
+  }
+
+  .materialChat {
+    border: solid 5px black;
+    width: 65%;
+    height: 600px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .mostraBOT{
+    width: 20%;
+    height: 100%;
+    border: solid 2px black;
+    border-radius: 10px; 
+    text-align: center;
+  }
+
+/*Elementos comuns*/
+
+html, body {height: 100%;}
+  h1 {
+    font-size: 65px;
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    border: solid 5px rgba(11, 63, 70, 0.767);
+    background-color: black;
+    color: #fff;
+    text-align: center;
+  }
+
+  a{
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #botaoAjuda{
+    border: 3px solid #000000;
+    margin-left: 5px;
+    width: max-content;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+   
+    #ajuda{
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    #footer{
+        margin-top: 110px;
+        font-size: 200%;
+        bottom: 0;
+        width: 100%;
+        border: solid 5px rgba(11, 63, 70, 0.767);
+        color: white;
+        background-color: black;
+        text-align: center;
+      }

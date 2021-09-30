@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+html, body {height: 100%;}
+  h1 {
+    font-size: 65px;
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    border: solid 5px rgba(11, 63, 70, 0.767);
+    background-color: black;
+    color: #fff;
+    text-align: center;
+  }
+
+  a{
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .material {
+    margin: 50px;
+    padding: 50px 0px 50px 0px;
+    border: solid 5px black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  .img {
+    padding-top: 10px;
+  }
+
+  #footer{
+    position: absolute;
+    font-size: 200%;
+    bottom: 0;
+    width: 100%;
+    border: solid 5px rgba(11, 63, 70, 0.767);
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+
+/* Dropdown Do botao ajuda */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    border: black 3px solid;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* Dropdown Do botao ajuda */
